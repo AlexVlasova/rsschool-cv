@@ -1,1 +1,1 @@
-[Ссылка на CV Markdown](https://github-username.github.io/rsschool-cv/cv)
+[Ссылка на CV Markdown](https://AlexVlasova.github.io/rsschool-cv/cv)
