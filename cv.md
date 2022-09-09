@@ -1,63 +1,28 @@
 # Бариева Александра
-+7 996 776 98 17
-Alex.Genrietta@gmail.com
+* +7 996 776 98 17
+* Alex.Genrietta@gmail.com
+* Санкт-Петербург, Россия
 ## Краткая информация
-Своей главной целью ставлю основательное изучение frontend разработки. При накоплении достаточного опыта планирую преподавать будущим разработчикам и помогать им в развитии навыков.
+В процессе обучения я освоила необходимые навыки для старта работы как начинающий frontend разработчик. Способна быстро обучаться, анализировать проблемы и находить их решения. При накоплении большего опыта планирую совмещать разработку с наставничеством будущим разработчикам.
 ## Навыки
 - HTML, CSS
-- SCSS, PUG
+- SCSS, LESS
 - WebPack
-- JavaScript
+- JavaScript, TS
 - Git
 ## Примеры кода
-```
-const switcher = document.querySelector('.personal-info .switcher');
-const switcherBtns = switcher.querySelectorAll('.switcher__item');
-function hideElement (tag) {
-const elem = document.querySelector(tag);
-elem.classList.add('hide');
-}
-function showElement (tag) {
-const elem = document.querySelector(tag);
-elem.classList.remove('hide');
-}
-switcher.addEventListener('click', (event) => {
-if ( !(event.target.classList.contains('switcher')) ) {
-const target = event.target.closest('.switcher__item');
-// Переключаем выделение на кнопках
-switcherBtns.forEach( (elem, i) => {
-if (elem.classList.contains('switch-checked')) {
-if (elem != target) {
-elem.classList.remove('switch-checked');
-// Меняем содержание
-if (i === 0) {
-hideElement('.messages');
-} else {
-hideElement('.invites');
-}
-}
-} else {
-if (elem == target) {
-elem.classList.add('switch-checked');
-// Меняем содержание
-if (i === 0) {
-showElement('.messages');
-} else {
-showElement('.invites');
-}
-}
-}
-});
-}
-});
-```
+- [Проект с простой версткой](https://github.com/AlexVlasova/pallets)
+- [Верстка и базовое взаимодействие со страницей, SPA](https://github.com/AlexVlasova/firstep-webapp)
+- [Учебный проект с JS](https://github.com/AlexVlasova/Food-StudyProject)
+- [Pet-project ToDo](https://github.com/AlexVlasova/ToDo)
 ## Опыт работы
-1. Разработка слайдера для лендинга [Firstep](https://firstep.love/)
-2. Разработка веб-версии приложения Firstep
+1. Разработка слайдера для лендинга [Firstep](https://firstep.love/) - 1 месяц
+2. Разработка веб-версии приложения Firstep (2 пункт в примерах кода) - 3 месяца
+3. Стажировка в компании Devexpress - 3 месяца
 ## Образование
-Студентка 2 курса, направление "Прикладная информатика" СпбПУ
-
-Обучение RS-School
++ Студентка 3 курса, направление "Прикладная информатика" СпбПУ
++ Обучение RS-School
++ Активный поиск информации на просторах интернета
 ## Английский язык - B2
-- Свободный разговор на неускоспециализированные темы
-- Свободное чтение технической литературы и документации
+- Веду разговор на неускоспециализированные темы
+- Свободно читаю техническую литературу и документацию
